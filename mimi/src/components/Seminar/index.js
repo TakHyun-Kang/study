@@ -5,7 +5,6 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleLeft, faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import './index.css';
-const moment = require('moment');
 const categoryStyle = {
     '쿠킹클래스': '#e67878',
     '제과제빵': '#e6c378',
@@ -387,9 +386,8 @@ const SListLi = styled.li`
                     background: #e8e8e8;
                 }
             `;
-        };
+        }
     }};
-    
 `;
 
 const SListA = styled.a`
