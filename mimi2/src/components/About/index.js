@@ -31,7 +31,6 @@ class About extends Component {
 const AboutA = styled.a`
     padding: 9px 20px 7px 40px;
     font-size: 16px;
-    // font-weight: 300;
     display: inline-block;
     position: relative;
     border-radius: 30px;

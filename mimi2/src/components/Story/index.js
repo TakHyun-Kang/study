@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled, { injectGlobal } from 'styled-components';
+import styled from 'styled-components';
 import './index.css';
 
 class Story extends Component {
@@ -21,16 +21,16 @@ class Story extends Component {
                     </p>
                     <ul className="storyThumb" >
                         <li>
-                            <img src="thumb_story01.jpg" alt />
+                            <img src="thumb_story01.jpg" />
                         </li>
                         <li>
-                            <img src="thumb_story02.jpg" alt />
+                            <img src="thumb_story02.jpg" />
                         </li>
                         <li>
-                            <img src="thumb_story03.jpg" alt />
+                            <img src="thumb_story03.jpg" />
                         </li>
                         <li>
-                            <img src="thumb_story04.jpg" alt />
+                            <img src="thumb_story04.jpg" />
                         </li>
                     </ul>
                     <div className="storyMoreBtnBox" >

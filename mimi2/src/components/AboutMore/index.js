@@ -21,7 +21,7 @@ class AboutMore extends Component {
             >
                 <div>
                     <div>
-                        <img src="about_pc.jpg" className="moreImg" alt/>
+                        <img src="about_pc.jpg" className="moreImg" />
                     </div>
                     <div className="moreContent" >
                         <h1 className="moreTitle" >

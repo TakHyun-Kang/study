@@ -50,7 +50,6 @@
 }
 
 .moreBox div .aboutCloseBtnBox {
-    /* position: fixed; */
     position: relative;
     margin-top: 100px;
     left: 0;
@@ -62,19 +61,6 @@
 }
 
 .moreBox div .aboutCloseBtnBox .aboutCloseBtn {
-    /* width: 104px;
-    height: 38px;
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 37px;
-    border-radius: 35px;
-    background-color: #000;
-    color: #fff;
-    border: 0 none;
-    vertical-align: middle;
-    cursor: pointer;
-    outline: none; */
-
     padding: 7px 25px 7px 25px;
     font-size: 16px;
     display: inline-block;

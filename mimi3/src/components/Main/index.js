@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import styled, { injectGlobal } from 'styled-components';
 import './index.css';
 
 import Waypoint from 'react-waypoint';
@@ -75,7 +74,7 @@ class Main extends Component {
                                 </div>
                                 <div className="mRSaltMillBox" style={style1} >
                                     <div className="mRSMImgBox" >
-                                        <img className="mRSaltMillImg" src="/image/salt_mill.jpg" />
+                                        <img className="mRSaltMillImg" src="/image/salt_mill.jpg" alt="" />
                                         <div className="mRSMBoxImgOver" >
                                             <div className="mRSMBIOOuter" >
                                                 <div className="mRSMBIOInner" >
@@ -84,7 +83,7 @@ class Main extends Component {
                                                     </div>
                                                     <div className="mRSMBIOIBtnBox" >
                                                         <Waypoint onEnter={this._handleScroll1} >
-                                                            <a href="#" className="mRSMImgA" >
+                                                            <a href="#product" className="mRSMImgA" >
                                                                 see the product
                                                             </a>
                                                         </Waypoint>

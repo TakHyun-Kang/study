@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import styled, { injectGlobal } from 'styled-components';
+import styled from 'styled-components';
 import './index.css';
-
-import Waypoint from 'react-waypoint';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -239,7 +237,7 @@ class Header extends Component {
                                     Seasoning Tips
                                 </NavListA>
                             </NavListLi>
-                            <NavListLi about navBGColor4={navBGColor4} navTextDeco4={navTextDeco4} navHBGColor4={navHBGColor4} >
+                            <NavListLi aboutN navBGColor4={navBGColor4} navTextDeco4={navTextDeco4} navHBGColor4={navHBGColor4} >
                                 <NavListA href="#" aboutA onClick={this.navClick} id="about" navColor4={navColor4} >
                                     About
                                 </NavListA>
@@ -288,7 +286,7 @@ const NavListLi = styled.li`
                     text-decoration: ${props.navTextDeco3};
                 };
             `;
-        } else if (props.about) {
+        } else if (props.aboutN) {
             return `
                 background-color: ${props.navBGColor4};
                 &:hover {

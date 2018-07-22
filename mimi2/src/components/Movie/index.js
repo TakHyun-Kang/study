@@ -72,7 +72,7 @@ class Movie extends Component {
                         frameBorder ="0"
                         allowFullScreen="1"
                         allow="autoplay; encrypted-media"
-                        titile="YouTube video player"
+                        title="YouTube video player"
                         width="100%"
                         height="100%"
                         src={`https://www.youtube.com/embed/IAWI6nMQhQI?start=0&amp;playsinline=1&amp;showinfo=0&amp;controls=1&amp;rel=0&amp;enablejsapi=1&amp;origin=http%3A%2F%2Faxisccp.com&amp;widgetid=1?rel=0${autoplay}`}

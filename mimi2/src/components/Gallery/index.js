@@ -1,5 +1,5 @@
-import React, { Component, Fragment } from 'react';
-import styled, { injectGlobal } from 'styled-components';
+import React, { Component } from 'react';
+import styled from 'styled-components';
 import './index.css';
 
 class Gallery extends Component {
@@ -504,52 +504,52 @@ class Gallery extends Component {
                             <div className="sliderList" >
                                 <SliderTrack SliderTrack1 control translate={this.state.controlTranslate3d1} style={transitionStyle} >
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_birth06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth07_pc.jpg" alt imgTF7 transform7={this.state.imgTransform7} />
+                                        <SliderImg src="img_birth07_pc.jpg" imgTF7 transform7={this.state.imgTransform7} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth01_pc.jpg" alt imgTF1 transform1={this.state.imgTransform1} />
+                                        <SliderImg src="img_birth01_pc.jpg" imgTF1 transform1={this.state.imgTransform1} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth02_pc.jpg" alt imgTF2 transform2={this.state.imgTransform2} />
+                                        <SliderImg src="img_birth02_pc.jpg" imgTF2 transform2={this.state.imgTransform2} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth03_pc.jpg" alt imgTF3 transform3={this.state.imgTransform3} />
+                                        <SliderImg src="img_birth03_pc.jpg" imgTF3 transform3={this.state.imgTransform3} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth04_pc.jpg" alt imgTF4 transform4={this.state.imgTransform4} />
+                                        <SliderImg src="img_birth04_pc.jpg" imgTF4 transform4={this.state.imgTransform4} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth05_pc.jpg" alt imgTF5 transform5={this.state.imgTransform5} />
+                                        <SliderImg src="img_birth05_pc.jpg" imgTF5 transform5={this.state.imgTransform5} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_birth06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth07_pc.jpg" alt imgTF7 transform7={this.state.imgTransform7} />
+                                        <SliderImg src="img_birth07_pc.jpg" imgTF7 transform7={this.state.imgTransform7} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth01_pc.jpg" alt imgTF1 transform1={this.state.imgTransform1} />
+                                        <SliderImg src="img_birth01_pc.jpg" imgTF1 transform1={this.state.imgTransform1} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth02_pc.jpg" alt imgTF2 transform2={this.state.imgTransform2} />
+                                        <SliderImg src="img_birth02_pc.jpg" imgTF2 transform2={this.state.imgTransform2} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth03_pc.jpg" alt imgTF3 transform3={this.state.imgTransform3} />
+                                        <SliderImg src="img_birth03_pc.jpg" imgTF3 transform3={this.state.imgTransform3} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth04_pc.jpg" alt imgTF4 transform4={this.state.imgTransform4} />
+                                        <SliderImg src="img_birth04_pc.jpg" imgTF4 transform4={this.state.imgTransform4} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth05_pc.jpg" alt imgTF5 transform5={this.state.imgTransform5} />
+                                        <SliderImg src="img_birth05_pc.jpg" imgTF5 transform5={this.state.imgTransform5} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_birth06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_birth07_pc.jpg" alt imgTF7 transform7={this.state.imgTransform7} />
+                                        <SliderImg src="img_birth07_pc.jpg" imgTF7 transform7={this.state.imgTransform7} />
                                     </div>
                                 </SliderTrack>
                             </div>
@@ -570,46 +570,46 @@ class Gallery extends Component {
                             <div className="sliderList" >
                                 <SliderTrack SliderTrack2 control translate={this.state.controlTranslate3d2} style={transitionStyle} >
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log05_pc.jpg" alt imgTF5 transform5={this.state.imgTransform5} />
+                                        <SliderImg src="img_log05_pc.jpg" imgTF5 transform5={this.state.imgTransform5} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_log06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log01_pc.jpg" alt imgTF1 transform1={this.state.imgTransform1} />
+                                        <SliderImg src="img_log01_pc.jpg" imgTF1 transform1={this.state.imgTransform1} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log02_pc.jpg" alt imgTF2 transform2={this.state.imgTransform2} />
+                                        <SliderImg src="img_log02_pc.jpg" imgTF2 transform2={this.state.imgTransform2} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log03_pc.jpg" alt imgTF3 transform3={this.state.imgTransform3} />
+                                        <SliderImg src="img_log03_pc.jpg" imgTF3 transform3={this.state.imgTransform3} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log04_pc.jpg" alt imgTF4 transform4={this.state.imgTransform4} />
+                                        <SliderImg src="img_log04_pc.jpg" imgTF4 transform4={this.state.imgTransform4} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log05_pc.jpg" alt imgTF5 transform5={this.state.imgTransform5} />
+                                        <SliderImg src="img_log05_pc.jpg" imgTF5 transform5={this.state.imgTransform5} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_log06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log01_pc.jpg" alt imgTF1 transform1={this.state.imgTransform1} />
+                                        <SliderImg src="img_log01_pc.jpg" imgTF1 transform1={this.state.imgTransform1} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log02_pc.jpg" alt imgTF2 transform2={this.state.imgTransform2} />
+                                        <SliderImg src="img_log02_pc.jpg" imgTF2 transform2={this.state.imgTransform2} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log03_pc.jpg" alt imgTF3 transform3={this.state.imgTransform3} />
+                                        <SliderImg src="img_log03_pc.jpg" imgTF3 transform3={this.state.imgTransform3} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log04_pc.jpg" alt imgTF4 transform4={this.state.imgTransform4} />
+                                        <SliderImg src="img_log04_pc.jpg" imgTF4 transform4={this.state.imgTransform4} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log05_pc.jpg" alt imgTF5 transform5={this.state.imgTransform5} />
+                                        <SliderImg src="img_log05_pc.jpg" imgTF5 transform5={this.state.imgTransform5} />
                                     </div>
                                     <div className="galleryImgBox" >
-                                        <SliderImg src="img_log06_pc.jpg" alt imgTF6 transform6={this.state.imgTransform6} />
+                                        <SliderImg src="img_log06_pc.jpg" imgTF6 transform6={this.state.imgTransform6} />
                                     </div>
                                 </SliderTrack>
                             </div>
@@ -630,10 +630,10 @@ class Gallery extends Component {
                             <div className="sliderList" >
                             <SliderTrack SliderTrack3 control translate={this.state.controlTranslate3d3} >
                                 <div className="galleryImgBox" >
-                                    <SliderImg src="img_remember01_pc.jpg" alt imgTF1 transform1={this.state.imgTransform1} />
+                                    <SliderImg src="img_remember01_pc.jpg" imgTF1 transform1={this.state.imgTransform1} />
                                 </div>
                                 <div className="galleryImgBox" >
-                                    <SliderImg src="img_remember02_pc.jpg" alt imgTF2 transform2={this.state.imgTransform2} />
+                                    <SliderImg src="img_remember02_pc.jpg" imgTF2 transform2={this.state.imgTransform2} />
                                 </div>
                             </SliderTrack>
                             </div>

@@ -128,7 +128,7 @@ export default class Contact extends React.Component {
                 />
                 <div className="search_content">{mapToComponents(this.state.contactData)}</div>
                 <ContactDetails 
-                    isSelected = {this.state.selectedKey != -1}
+                    isSelected = {this.state.selectedKey !== -1}
                     contact= {this.state.contactData[this.state.selectedKey]}
                     onRemove={this.handleRemove}
                     onEdit={this.handleEdit}
