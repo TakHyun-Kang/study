@@ -1,0 +1,474 @@
+.mainBGImg {
+    background-image: url(/image/banner_main.jpg);
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    bottom: -30px;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    background-repeat: no-repeat;
+    z-index: -5;
+}
+
+.mainContentBox {
+    background: -webkit-linear-gradient(top, transparent, rgba(0,0,0,0.7) 25%, rgba(0,0,0,0.7) 30%);
+    z-index: 0;
+}
+
+.mainContentBox .mainUpper {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 40px;
+}
+
+.mainContentBox .mainUpper .mainUpperInner {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: -24px;
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUInnerHeader {
+    font-size: 0;
+    width: 100%;
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUInnerHeader .mUIHeaderH2 {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Domine', serif;
+    font-weight: 400;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* padding: 0;
+    margin: 0; */
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUInnerHeader .mUIHeaderH1 {
+    font-size: 115px;
+    line-height: 140px;
+    text-align: left;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+    margin: -30px 0 0 0;
+}
+.mUIHeaderH1::after {
+    width: 650px;
+    margin: 20px 0 0;
+    display: block;
+    height: 1px;
+    background-color: #fff;
+    content: '';
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUIHeaderContentBox {
+    font-size: 0;
+    width: 50%;
+    display: inline-block;
+    padding-left: 24px;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUIHeaderContentBox .mUIHeaderContent {
+    width: 90%;
+    margin: 40px 0;
+    text-align: left;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUIHeaderContentBox .mUIHeaderContent p {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.mainContentBox .mainUpper .mainUpperInner .mUIHeaderContentBox .mUIHeaderContentA {
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 20px 30px;
+    font-size: 24px;
+    line-height: 24px;
+    margin: 30px 0;
+    font-family: 'Archivo Black', sans-serif;
+    display: inline-block;
+    transition: .6s;
+}
+.mainContentBox .mainUpper .mainUpperInner .mUIHeaderContentBox .mUIHeaderContentA:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.mainContentBox .main {
+    padding-top: 140px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.mainContentBox .main .mainRecipes {
+    padding-bottom: 140px;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox {
+    margin-left: 0;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRContentHeader {
+    padding-left: 0;
+    font-size: 0;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRContentHeader .mRContentHeaderImg {
+    background-image: url(/image/pot-home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 426px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRContentHeader .mRContentHeaderImg .mRCHeaderTitle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRContentHeader
+.mRContentHeaderImg .mRCHeaderTitle .mRCHTitleInner {
+    font-size: 125px;
+    line-height: 125px;
+    padding: 0 20px;
+    color: #fff;
+    font-weight: 600;
+    font-style: oblique;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRSaltMillBox {
+    padding-left: 0;
+    font-size: 0;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox {
+    background-color: #fff;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSaltMillImg {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 5;
+    opacity: 0;
+}
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver:hover {
+    transition: all 300ms ease-in 0ms;
+    background-color: rgba(65,65,65,0.5);
+    opacity: 1;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver .mRSMBIOOuter {
+    height: 426px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver
+.mRSMBIOOuter .mRSMBIOInner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver
+.mRSMBIOOuter .mRSMBIOInner .mRSMBIOIContent {
+    color: #fff;
+    text-align: center;
+    font-size: 21px;
+    line-height: 24px;
+    padding: 15px 10px 10px;
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver
+.mRSMBIOOuter .mRSMBIOInner .mRSMBIOIBtnBox {
+    display: block;
+    text-align: center;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver
+.mRSMBIOOuter .mRSMBIOInner .mRSMBIOIBtnBox .mRSMImgA {
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 30px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 21px;
+    display: inline-block;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    transition: .6s
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRSaltMillBox .mRSMImgBox .mRSMBoxImgOver
+.mRSMBIOOuter .mRSMBIOInner .mRSMBIOIBtnBox .mRSMImgA:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRPotato {
+    padding-left: 0;
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter {
+    height: 426px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    border-top: none;
+    border-bottom: none;
+    box-sizing: border-box;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner {
+    display: table-cell;
+    vertical-align: middle;
+    border: solid 15px #fff;
+    width: 100%;
+    background-color: #fcf5e6;
+    box-sizing: border-box;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent {
+    text-align: center;
+    /* margin-left: 0; */
+    margin: 0;
+    padding: 0;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPTextBox {
+    text-align: left;
+    padding-left: 0;
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPTextBox h3 {
+    color: #610710;
+    padding: 30px;
+    font-size: 40px;
+    /* font-family: "GoudyOldStyleBT-Roman"; */
+    font-family: 'Old Standard TT', serif;
+    font-weight: 400;
+    font-variant: small-caps;
+    line-height: 36px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 0;
+}
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPTextBox h3::after {
+    background-color: #610710;
+    margin: 20px auto 0;
+    display: block;
+    width: 50%;
+    height: 1px;
+    margin: 10px auto 0;
+    content: '';
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPBtnBox {
+    text-align: center;
+    padding-left: 0;
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPBtnBox .mRPBtn {
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid #610710;
+    color: #610710;
+    margin: 35px 0;
+    padding: 12px 24px;
+    font-size: 20px;
+    line-height: 21px;
+    display: inline-block;
+    font-family: "GillSansMT";
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: background-color 300ms ease-in 0ms;
+    text-decoration: none;
+}
+.mainContentBox .main .mainRecipes .mRContentBox
+.mRPotato .mRPOuter .mRPInner .mRPcontent .mRPBtnBox .mRPBtn:hover {
+    background-color: #610710;
+    color: #fff;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRAllRecipes {
+    padding-left: 0;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRAllRecipes
+.mRAROuter {
+    height: 426px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    background-color: rgba(65,65,65,0.5);
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRAllRecipes
+.mRAROuter .mRARInner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRAllRecipes
+.mRAROuter .mRARInner .mRARBtn {
+    background-color: transparent;
+    display: inline-block;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: background-color 300ms ease-in 0ms;
+    border: 1px solid #fff;
+    color: #fff;
+    margin: 30px 0;
+    padding: 12px 24px;
+    font-size: 16px;
+    line-height: 21px;
+    text-decoration: none;
+}
+.mainContentBox .main .mainRecipes .mRContentBox .mRAllRecipes
+.mRAROuter .mRARInner .mRARBtn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRText {
+    padding-left: 0;
+    width: 25%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRText
+.mRTextImg {
+    background-image: url(/image/recipe_bucket_quote_bg.jpg);
+    height: 426px;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRText
+.mRTextImg .mRTextInner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.mainContentBox .main .mainRecipes .mRContentBox .mRText
+.mRTextImg .mRTextInner p {
+    width: 66%;
+    font-size: 48px;
+    line-height: 50px;
+    margin: 0 auto 10px;
+    color: #fff;
+    font-family: 'Tangerine', cursive;
+    font-weight: 400;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 20px;
+}
+.mainContentBox .main .mainRecipes .mRContentBox .mRText
+.mRTextImg .mRTextInner p::before {
+    content: '';
+    display: block;
+    height: 25px;
+    width: 38px;
+    margin: 0 auto 30px;
+    background: url(/image/ico_quote.png) no-repeat;
+}

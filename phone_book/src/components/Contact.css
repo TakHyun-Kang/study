@@ -1,0 +1,54 @@
+.search{
+    border: none;
+    width: 50%;
+    height: 30px;
+    padding:0 10px;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133, 0.22);
+    /* box-shadow: 0 8px 38px rgb(254, 240, 91), 0 5px 12px rgba(254, 240, 91, 0.01); */
+    outline: none;
+    background-color: rgb(235, 235, 235);
+    border-radius: 3px;
+}
+.search:focus{
+    box-shadow: 0 8px 38px rgb(254, 240, 91), 0 5px 12px rgba(254, 240, 91, 1);
+}
+
+.search_content{
+    width: 50%;
+    margin: 30px auto;
+    /* margin-top: 30px; */
+    /* border: 1px solid black; */
+}
+.search_content:hover{
+    cursor: pointer;
+}
+
+.contactCreateBox{
+    padding-bottom: 30px;
+}
+.contactCreateBox > button{
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.newCreate{
+    border-bottom: 1px solid rgb(65, 65, 65);
+    border-radius: 3px;
+    width: 200px;
+    height: 30px;
+    line-height: 32px;
+    background-color: rgb(240, 240, 240);
+    transition-duration: 0.5s;
+    margin: 10px auto;
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.1), 0 5px 12px rgba(133, 133, 133, 0.1);
+}
+.newCreate:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(254, 240, 91);
+    color: gray;
+    border-bottom: 1px solid gray;
+}

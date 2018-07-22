@@ -1,0 +1,36 @@
+.createName{
+    width: 130px;
+    height: 20px;
+    padding: 0 5px;
+    margin: 5px;
+    outline: none;
+}
+.createName:focus{
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133, 0.22);
+}
+.createPhone{
+    width: 130px;
+    height: 20px;
+    padding: 0 5px;
+    margin: 5px;
+    outline: none;
+}
+.createPhone:focus{
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133, 0.22);
+}
+
+.createBtn{
+    margin-bottom: 50px;
+    width: 70px;
+    height: 25px;
+    transition-duration: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+.createBtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(254, 240, 91);
+    color: gray;
+}

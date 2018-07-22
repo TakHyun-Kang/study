@@ -1,0 +1,67 @@
+.details{
+    padding-top: 1px;
+    border-top: 3px dotted rgba(233, 114, 2, 0.4);
+    border-bottom: 3px dotted rgba(233, 114, 2, 0.4);
+}
+.detailsContent{
+    padding-top: 1px;
+}
+
+.details_box{
+    height: 100px;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(221, 221, 221);
+    border-radius: 3px;
+    box-shadow: 0 8px 38px rgba(233, 114, 2, 0.5), 0 5px 12px rgba(233, 114, 2, 0.2);
+}
+
+.notSelected{
+    padding-top: 30px;
+}
+
+.editInput1{
+    margin-top: 15px;
+    height: 20px;
+    padding:0 10px;
+    outline: none;
+}
+.editInput2{
+    height: 20px;
+    padding:0 10px;
+    outline: none;
+}
+.editInput1:focus, .editInput2:focus{
+    box-shadow: 0 8px 38px rgba(133, 133, 133, 0.3), 0 5px 12px rgba(133, 133, 133, 0.22);
+}
+
+.editBtn{
+    width: 70px;
+    height: 25px;
+    margin: 5px 5px;
+    transition-duration: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+.editBtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgb(254, 240, 91);
+    color: gray;
+}
+.removeBtn{
+    width: 70px;
+    height: 25px;
+    margin: 5px 5px;
+    transition-duration: 0.5s;
+    outline: none;
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+}
+.removeBtn:hover{
+    opacity: 0.6;
+    cursor: pointer;
+    background-color: rgba(255, 60, 0, 0.925);
+    color: white;
+}

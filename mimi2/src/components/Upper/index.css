@@ -1,0 +1,84 @@
+.upperContainer {
+    /* position: relative; */
+}
+
+.uppper {
+    position: relative;
+    z-index: 10;
+}
+
+.imgHover {
+    left: 132px;
+    right: 150px;
+    top: 41.3%;
+    height: 17.5%;
+    width: 1417px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 21;
+}
+.imgHover:hover ~ .fra1{
+    /* display: none; */
+    opacity: 0;
+}
+
+.frame {
+    display: block;
+}
+
+.frameImg {
+    display: block;
+    position: relative;
+    width: 100%;
+    z-index: 20;
+    border: 0 none;
+    outline: none;
+}
+
+.imgBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    mix-blend-mode: overlay;
+    z-index: 20;
+}
+
+.mainImg {
+    width: 100%;
+    border: 0 none;
+    outline: none;
+    display: block;
+}
+
+.videoBox {
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.mainVideo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 120%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.upperScrollBtn {
+    bottom: 40px;
+    margin-left: -24px;
+    position: relative;
+    left: 50%;
+    z-index: 20;
+    display: inline-block;
+    width: 48px;
+    height: 25px;
+    background-image: url('/ico_pagescroll_pc.png');
+    outline: none;
+}

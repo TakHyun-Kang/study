@@ -1,0 +1,29 @@
+.arrowRight{
+    color: #A6A6A6;
+    position: absolute !important;
+    z-index: 1;
+    top: 0;
+    width: 31px;
+    height: 110px !important;
+    margin-left: 90%;
+}
+.arrowRight:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.arrowRight:active .SListUl{
+    margin-left: -100px;
+}
+
+.arrowLeft{
+    color: #A6A6A6;
+    position: absolute !important;
+    z-index: 1;
+    top: 0;
+    width: 31px;
+    height: 110px !important;
+}
+.arrowLeft:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}

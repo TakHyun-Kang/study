@@ -1,0 +1,50 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+}
+
+.headerInner {
+    padding: 50px 60px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    position: relative;
+    float: left;
+}
+.logo::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    margin: -30px 0 0 -30px;
+    background-image: url('/ico_logokatie_pc.png');
+    left: 50%;
+    top: 50%;
+}
+
+.axisLink {
+    width: 104px;
+    height: 24px;
+    margin-top: 10px;
+    padding: 0;
+    position: relative;
+    float: right;
+    text-decoration: none;
+    outline: none;
+}
+.axisLink::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 104px;
+    height: 24px;
+    margin: -12px 0 0 -52px;
+    background-image: url('/ico_logoaxis_pc.png');
+}

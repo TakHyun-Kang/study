@@ -1,0 +1,100 @@
+.moreBox div div .moreImg {
+    width: 100%;
+    display: block !important;
+    border: 0 none;
+    outline: none;
+}
+
+.moreBox div .moreContent {
+    width: 1300px;
+    margin: 0 auto;
+    padding-top: 116px;
+    position: relative;
+}
+
+.moreBox div .moreContent .moreTitle {
+    width: 918px;
+    left: -60px;
+    top: -140px;
+    padding: 40px 0 0 80px;
+    position: absolute;
+    background: #fff;
+}
+
+.moreBox div .moreContent .moreTitle span {
+    font-size: 40px;
+    display: block;
+    font-weight: 400;
+    color: #000;
+}
+
+.moreBox div .moreContent .moreTitle strong {
+    margin-top: -9px;
+    font-size: 100px;
+    line-height: 105px;
+    display: block;
+    font-weight: 700;
+    color: #000;
+}
+
+.moreBox div .moreContent p {
+    font-size: 24px;
+    line-height: 37px;
+    margin: 0 20px;
+    font-weight: 300;
+    color: #000;
+}
+
+.moreBox div .moreContent p + p {
+    margin-top: 31px;
+}
+
+.moreBox div .aboutCloseBtnBox {
+    /* position: fixed; */
+    position: relative;
+    margin-top: 100px;
+    left: 0;
+    bottom: 30px;
+    width: 100%;
+    transform: translateY(0);
+    font-size: 0;
+    text-align: center;
+}
+
+.moreBox div .aboutCloseBtnBox .aboutCloseBtn {
+    /* width: 104px;
+    height: 38px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 37px;
+    border-radius: 35px;
+    background-color: #000;
+    color: #fff;
+    border: 0 none;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none; */
+
+    padding: 7px 25px 7px 25px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    background: #000;
+    color: #fff;
+    line-height: 30px;
+    text-decoration: none;
+    outline: none;
+    cursor: pointer;
+    vertical-align: middle;
+    border: 0 none;
+}
+.moreBox div .aboutCloseBtnBox .aboutCloseBtn::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    margin: 14px 9px 0 0;
+    background-image: url("/btn-lp-close-pc.png");
+    background-size: auto auto;
+    display: inline-block;
+}

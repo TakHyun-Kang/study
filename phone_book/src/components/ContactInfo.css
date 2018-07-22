@@ -1,0 +1,13 @@
+.contactInfo{
+    margin: 10px auto;
+    padding: 7px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+    border-bottom: 1px solid black;
+}
+.contactInfo:hover{
+    box-shadow: 0 8px 38px rgb(254, 240, 91), 0 5px 12px rgba(254, 240, 91, 0.8);
+    opacity: 0.5;
+    background-color: rgb(230, 230, 230);
+    border-bottom: 1px solid gray;
+}

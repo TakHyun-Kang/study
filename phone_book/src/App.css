@@ -1,0 +1,54 @@
+*{
+  font-family: 'Kaushan Script', cursive;
+}
+.App {
+  text-align: center;
+  background-color: gainsboro;
+}
+
+.logo{
+  width: 100px;
+  animation: App-logo-spin infinite 20s linear;
+  margin-top: 30px;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.header{
+  border-bottom: 3px solid rgba(233, 114, 2, 0.3);
+}
+
+.des{
+  margin-top: 40px;
+}
+
+h1, h2{
+  font-family: 'Lobster', cursive;
+}
+
+
+
+
+/* .App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+} */
+
+/* .App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+} */
+
+/* .App-title {
+  font-size: 1.5em;
+} */
+
+/* .App-intro {
+  font-size: large;
+} */
+
+

@@ -1,0 +1,78 @@
+.storyBox {
+padding-top: 0;
+margin: 0;
+padding: 0;
+}
+
+.storyBox .storyInner {
+    overflow: hidden;
+    position: relative;
+    height: 705px;
+    padding-left: 42%;
+}
+
+.storyBox .storyInner .storyTitle {
+    padding-top: 75px;
+    font-size: 46px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #000;
+}
+.storyBox .storyInner .storyTitle span {
+    display: inline-block;
+    font-size: 46px;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #000;
+}
+
+.storyBox .storyInner .storyImg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 733px;
+    width: 39%;
+    margin-top: 0;
+    padding-bottom: 705px;
+    background-image: url(/img_story_visual_pc.png);
+    background-position: 100% 50%;
+    margin: 0;
+}
+
+.storyBox .storyInner p {
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    color: #333;
+    line-height: 27px;
+    letter-spacing: 0;
+}
+
+.storyBox .storyInner .storyThumb {
+    width: 760px;
+    margin: 50px -15px 0;
+    display: flex;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+}
+
+.storyBox .storyInner .storyThumb li {
+    padding: 0 15px;
+    flex: 1;
+    margin: 0;
+}
+
+.storyBox .storyInner .storyThumb li img {
+    width: 100%;
+    vertical-align: top;
+    border: 0 none;
+    outline: none;
+}
+
+.storyBox .storyInner .storyMoreBtnBox {
+    margin: 70px 0 0;
+    text-align: left;
+    font-size: 0;
+    padding: 0;
+}

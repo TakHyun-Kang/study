@@ -1,0 +1,70 @@
+.galleryContainer {
+    padding-top: 52px;
+    background: #f1f3f5;
+}
+
+.gralleryHeader {
+    padding: 0;
+    margin: 0;
+}
+
+.gHeaderUl {
+    text-align: center;
+    font-size: 0;
+    list-style: none;
+}
+
+.gHeaderLi {
+    width: auto;
+    margin: 0 21px;
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.galleryMain {
+    margin-top: 32px;
+    padding-bottom: 128px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    user-select: none;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.sliderList {
+    padding: 0px 500px;
+    transform: translate3d(0, 0, 0);
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+}
+
+.galleryImgBox {
+    width: 630px;
+    margin: 0 25px;
+    overflow: hidden;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.control {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+}

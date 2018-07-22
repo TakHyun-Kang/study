@@ -1,0 +1,10 @@
+.icon{
+    display: block;
+    font-size: 70px;
+    margin: 20px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    color: #D4D3D4;
+    transition: 0.6s;
+}
