@@ -1,0 +1,38 @@
+// .hello {
+//     color: white;
+//     background-image: url('./ico.png') no-repeat;
+//     font-size: 2rem;
+// }
+
+// body {
+//     background-image: url(main.jpg);
+//     background-size: cover;
+// }
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 60px;
+    border-bottom: 3px solid #EDEBEA;
+    .headerMenu {
+        display: inline-block;
+        .headerMenuImg {
+            font-size: 100px;
+            width: 30px;
+            margin: 14px 40px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .logo {
+        display: inline-block;
+        .logoImg {
+            width: 75px;
+            margin: 13px -25px;
+        }
+    }
+}
