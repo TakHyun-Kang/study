@@ -22,26 +22,28 @@
             }
             .mainTitleCheck2 {
                 @extend %mainTitleCheck;
-                left: 299px;
+                left: 300px;
             }
             .mainTitleCheck3 {
                 @extend %mainTitleCheck;
-                left: 570px;
+                left: 569px;
             }
             .mainTitleCheck4 {
                 @extend %mainTitleCheck;
-                left: 842px;
+                left: 840px;
             }
             .mainTitleCheck5 {
                 @extend %mainTitleCheck;
-                left: 1113px;
+                // left: 1113px;
+                left: 1109px;
             }
             .mainTitleCheck6 {
                 font-size: 30px;
                 display: inline-block;
                 position: absolute;
                 top: 240px;
-                left: 1381px;
+                // left: 1381px;
+                left: 1379px;
                 background-color: #0095FF;
                 color: #fff;
                 border: 1px solid #0095FF;
@@ -59,19 +61,19 @@
             }
             .checkLine2 {
                 @extend %checkLine;
-                margin-left: 20px;
+                margin-left: 24px;
             }
             .checkLine3 {
                 @extend %checkLine;
-                margin-left: 23px;
+                margin-left: 26px;
             }
             .checkLine4 {
                 @extend %checkLine;
-                margin-left: 23px;
+                margin-left: 24px;
             }
             .checkLine5 {
                 @extend %checkLine;
-                margin-left: 22px;
+                margin-left: 24px;
             }
         }
     }
@@ -167,7 +169,16 @@
 
 %checkLine {
     border: 1px solid #0095FF;
-    width: 245px;
+    // width: 245px;
+    width: 17.5%;
     display: inline-block;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1241px) {
+    body {
+    }
+    .checkLine1 {
+        width: 200px;
+    }
 }

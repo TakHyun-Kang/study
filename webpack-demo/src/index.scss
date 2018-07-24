@@ -6,6 +6,8 @@
 
 body {
     background-color: #F2F8FC;
+    position: relative;
+    transition: .5s;
 }
 
 @import 'header.scss';

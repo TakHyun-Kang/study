@@ -6,9 +6,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Roro</title>
   </head>
-  <body>
+  <body style="left: 0px;" >
+    <!-- <div class="overlay" id="menuOverlay" style="width: 0%;" > -->
+      <div class="MenuBox" id="sMenuBox" style="width: 0px;" >
+        <a href="javascript:void(0)" id="closeBtn" class="menuCloseBtn" >&times;</a>
+        <a href="#">Something menu 1</a>
+        <a href="#">Something menu 2</a>
+        <a href="#">Something menu 3</a>
+        <a href="#">Something menu 4</a>
+      </div>
+    <!-- </div> -->
     <header>
-      <div class="headerMenu" >
+      <div class="headerMenu" id="sideMenu" >
         <div class="menuArrowBox" >
           <i class="fas fa-caret-left menuArrow" ></i>
         </div>
@@ -42,10 +51,17 @@
         </div>
       </div>
       <div class="utilBox">
-        <div class="userBox" >
+        <div class="userBox" id="userInfo" >
             <i class="fas fa-user-circle userImg" ></i>
             <p class="userName" id="uName" ></p>
             <i class="fas fa-sort-down arrowDown" ></i>
+        </div>
+        <div id="userInfo2" style="display: none;" >
+          <a href="#" >info_1</a>
+          <a href="#" >info_2</a>
+          <a href="#" >info_3</a>
+          <a href="#" >info_4</a>
+          <a href="#" >info_5</a>
         </div>
         <div class="noticeBox" >
             <i class="fas fa-bell bell" ></i>
@@ -285,11 +301,13 @@
             <p>Set the time</p>
           </div>
           <div class="dateBox" >
-            <input type="text" class="datepicker">
-            <input type="text" class="timepicker" placeholder="Choose a time" >
-            <img class="dateIcon" src="./public/dateIcon.png" >
-            <i class="fas fa-sort-down dateArrow"></i>
-            <img class="timeIcon" src="./public/dateIcon.png" >
+            <input type="date" class="date" name="trip" value="2018-06-22"/>
+            <input type="time" id="appt-time" name="appt-time" value="10:30" />
+            <!-- <input type="text" class="datepicker"> -->
+            <!-- <input type="text" class="timepicker" placeholder="Choose a time" > -->
+            <!-- <img class="dateIcon" src="./public/dateIcon.png" > -->
+            <!-- <i class="fas fa-sort-down dateArrow"></i> -->
+            <!-- <img class="timeIcon" src="./public/dateIcon.png" > -->
           </div>
           <p>8 hours 34 minutes</p>
         </div>
