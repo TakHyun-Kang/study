@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <title>Roro</title>
   </head>
   <body>
@@ -21,23 +22,23 @@
       <div class="headerState" >
         <div class="exclamationBox" >
           <i class="fas fa-exclamation-circle exclamation" ></i>
-          <h3 class="error" >Error</h3>
-          <h3 id="errorNum" class="error2" ></h3>
+          <span class="error" >Error</span>
+          <span id="errorNum" class="error2" ></span>
         </div>
         <div class="progressBox" >
             <i class="fas fa-spinner spinner"></i>
-            <h3 class="progress" >In Progress</h3>
-            <h3 id="progressNum" class="progress2" ></h3>
+            <span class="hProgress" >In Progress</span>
+            <span id="progressNum" class="progress2" ></span>
         </div>
         <div class="completedBox" >
             <i class="far fa-check-circle check" ></i>
-            <h3 class="completed" >Completed</h3>
-            <h3 id="completedNum" class="completed2" ></h3>
+            <span class="completed" >Completed</span>
+            <span id="completedNum" class="completed2" ></span>
         </div>
         <div class="ReservedBox" >
             <i class="far fa-clock clock" ></i>
-            <h3 class="reserved" >Reserved</h3>
-            <h3 id="reservedNum" class="reserved2" ></h3>
+            <span class="reserved" >Reserved</span>
+            <span id="reservedNum" class="reserved2" ></span>
         </div>
       </div>
       <div class="utilBox">
@@ -73,35 +74,35 @@
         </div>
       </div>
       <div class="tableBox" >
-        <h1>License</h1>
+        <p>License</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="licenseNum tableLeft tableTop tableBottom" >Lisense Number</th>
             <th>Remained</th>
             <th>Migrated</th>
             <th>Contracted</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableLeft" >d8f9a - df9d2 - dfkj9 - 233gx - aom92</th>
             <th class="tableTop licenseColor" >3</th>
             <th class="tableTop" >2</th>
             <th class="tableTop" >5</th>
           </tr>
-          <tr class="BGColor" >
-            <th class="tableBottom tableLeft" >(Individjal - 5 Migration Kit)</th>
+          <tr class="BGColor tableTr" >
+            <th class="tableBottom tableLeft tPaddingTop" >(Individjal - 5 Migration Kit)</th>
             <th></th>
             <th></th>
             <th></th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableLeft tableTop" >d8f9a - df9d2 - dfkj9 - 233gx - aom92</th>
             <th class="licenseColor" >6</th>
             <th>14</th>
             <th>20</th>
           </tr>
-          <tr class="BGColor" >
-            <th class="tableLeft tableBottom" >(Most popular - 20 Migration kit)</th>
+          <tr class="BGColor tableTr" >
+            <th class="tableLeft tableBottom tPaddingTop" >(Most popular - 20 Migration kit)</th>
             <th></th>
             <th></th>
             <th></th>
@@ -109,32 +110,32 @@
         </table>
       </div>
       <div class="tableBox" >
-        <h1>Server</h1>
+        <p>Server</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="hostName tableLeft tableTop tableBottom" >Host Name</th>
             <th>IP</th>
             <th>User Name</th>
             <th>OS</th>
             <th>Alive</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableLeft" >Roro-test3.novalocal</th>
             <th class="tableTop" >192.168.10.120</th>
             <th class="tableTop" >
               <img class="serverImg" src="./c.png" >
               centos
             </th>
-            <th class="tableTop" >
+            <th class="tableTop tableTr" >
               <img class="serverImg" src="./linux.png" >
               Linux xx.xx.x
             </th>
-            <th class="tableTop" >
+            <th class="tableTop tableTr" >
               <div class="alive" ></div>
             </th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableBottom tableLeft" >Roro-test3.novalocal</th>
             <th>192.168.10.120</th>
             <th>
@@ -149,7 +150,7 @@
                 <div class="alive" ></div>
             </th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableLeft tableBottom" >Roro-test3.novalocal</th>
             <th>192.168.10.120</th>
             <th>
@@ -167,10 +168,10 @@
         </table>
       </div>
       <div class="tableBox" >
-        <h1>A WS network Setting</h1>
+        <p>A WS network Setting</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="credentialName tableLeft tableTop tableBottom" >Credential Name</th>
             <th>Region</th>
             <th>VPC</th>
@@ -179,7 +180,7 @@
             <th>Associate an Elastic IP</th>
             <th>Private IP</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableLeft" >Roro-test3.novalocal</th>
             <th class="tableTop" >Tokyo</th>
             <th class="tableTop" >centos</th>
@@ -188,7 +189,7 @@
             <th class="tableTop" >No</th>
             <th class="tableTop" >192.168.10.120</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
               <th class="tableTop tableLeft" ></th>
               <th class="tableTop" ></th>
               <th class="tableTop" ></th>
@@ -197,7 +198,7 @@
               <th class="tableTop" ></th>
               <th class="tableTop" ></th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
               <th class="tableTop tableLeft tableBottom" ></th>
               <th class="tableTop tableBottom" ></th>
               <th class="tableTop tableBottom" ></th>
@@ -209,16 +210,16 @@
         </table>
       </div>
       <div class="tableBox" >
-        <h1>Instance Type</h1>
+        <p>Instance Type</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="type tableLeft tableTop tableBottom" >Type</th>
             <th>Family</th>
             <th>vCPUs</th>
             <th>Memory</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableBottom tableLeft" >t2.micro</th>
             <th class="tableTop tableBottom" >General Purpose</th>
             <th class="tableTop tableBottom" >2</th>
@@ -227,10 +228,10 @@
         </table>
       </div>
       <div class="tableBox" >
-        <h1>Volumes</h1>
+        <p>Volumes</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="volumeType tableLeft tableTop tableBottom" >Volume Type</th>
             <th>Path</th>
             <th>Device</th>
@@ -238,7 +239,7 @@
             <th>Total(MB)</th>
             <th>Size(GiB)</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableBottom tableLeft" >t2.micro</th>
             <th class="tableTop tableBottom" >/</th>
             <th class="tableTop tableBottom" >/dev/vda1</th>
@@ -248,21 +249,21 @@
           </tr>
         </table>
       </div>
-      <div class="tableBox" >
-        <h1>Custom Volumes</h1>
+      <div class="tableBox lastTable" >
+        <p>Custom Volumes</p>
         <i class="fas fa-pencil-alt pencil" ></i>
         <table>
-          <tr class="subtitle" >
+          <tr class="subtitle tableTr" >
             <th class="path tableLeft tableTop tableBottom" >Path</th>
             <th>Total(MB)</th>
             <th>Size(GiB)</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
             <th class="tableTop tableBottom tableLeft" >qwerty 9</th>
             <th class="tableTop tableBottom" >/</th>
             <th class="tableTop tableBottom" >9</th>
           </tr>
-          <tr class="BGColor" >
+          <tr class="BGColor tableTr" >
               <th class="tableTop tableBottom tableLeft" >qwerty no name 9</th>
               <th class="tableTop tableBottom" >/</th>
               <th class="tableTop tableBottom" >9</th>
@@ -272,9 +273,35 @@
     </div>
     <footer>
       <div class="footerUpper" >
-        <small>Schedule</small>
+        <div class="upperBox" >
+          <small>Schedule</small>
+          <small class="smallRight" >It is expected to take</small>
+          <div class="timeBox" >
+            <input type="radio" name="timeStart" class="start" >
+            <p class="startText" >Start right away</p>
+          </div>
+          <div class="timeBox" >
+            <input type="radio" name="timeSet" class="set" checked >
+            <p>Set the time</p>
+          </div>
+          <div class="dateBox" >
+            <input type="text" class="datepicker">
+            <input type="text" class="timepicker" placeholder="Choose a time" >
+            <img class="dateIcon" src="./dateIcon.png" >
+            <i class="fas fa-sort-down dateArrow"></i>
+            <img class="timeIcon" src="./dateIcon.png" >
+          </div>
+          <p>8 hours 34 minutes</p>
+        </div>
+      </div>
+      <div class="footerLower" >
+          <i class="fas fa-caret-left fLeftArrow"></i>
+          <span class="leftSpan" >Prev</span>
+          <span class="rightSpan" >Start Migration</span>
+          <i class="fas fa-caret-right fRightArrow"></i>
       </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
     <script src="main.js"></script>
   </body>
 </html>

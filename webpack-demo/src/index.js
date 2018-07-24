@@ -22,6 +22,22 @@ function component() {
     var notice = document.getElementById('noticeNum');
     notice.innerHTML = _.join(['12'], ' ');
 
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.datepicker');
+      var instances = M.Datepicker.init(elems, {
+        format: 'yyyy. mm. dd',
+        defaultDate: new Date(),
+        setDefaultDate: true
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.timepicker');
+      var instances = M.Timepicker.init(elems, {
+        defaultTime: 'now',
+      });
+    });
+
     // element.classList.add('hello');
 
     // var myIcon = new Image();
@@ -29,7 +45,7 @@ function component() {
 
     // element.appendChild(myIcon);
   
-    return element;
+    // return element;
   }
-  
-  document.body.appendChild(component());
+  component();
+  // document.body.appendChild(component());
