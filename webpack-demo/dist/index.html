@@ -1,17 +1,59 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <title>Roro</title>
   </head>
   <body>
     <header>
       <div class="headerMenu" >
+        <div class="menuArrowBox" >
+          <i class="fas fa-caret-left menuArrow" ></i>
+        </div>
         <img class="headerMenuImg" src="./bars-solid.svg" >
       </div>
       <div class="logo" >
-        <img class="logoImg" src="./roroLogo.png" >
+        <a href="http://localhost:9000/" >
+          <img class="logoImg" src="./roroLogo.png" >
+        </a>
+      </div>
+      <div class="headerState" >
+        <div class="exclamationBox" >
+          <i class="fas fa-exclamation-circle exclamation" ></i>
+          <h3 class="error" >Error</h3>
+          <h3 id="errorNum" class="error2" ></h3>
+        </div>
+        <div class="progressBox" >
+            <i class="fas fa-spinner spinner"></i>
+            <h3 class="progress" >In Progress</h3>
+            <h3 id="progressNum" class="progress2" ></h3>
+        </div>
+        <div class="completedBox" >
+            <i class="far fa-check-circle check" ></i>
+            <h3 class="completed" >Completed</h3>
+            <h3 id="completedNum" class="completed2" ></h3>
+        </div>
+        <div class="ReservedBox" >
+            <i class="far fa-clock clock" ></i>
+            <h3 class="reserved" >Reserved</h3>
+            <h3 id="reservedNum" class="reserved2" ></h3>
+        </div>
+      </div>
+      <div class="utilBox">
+        <div class="userBox" >
+            <i class="fas fa-user-circle userImg" ></i>
+            <p class="userName" id="uName" ></p>
+            <i class="fas fa-sort-down arrowDown" ></i>
+        </div>
+        <div class="noticeBox" >
+            <i class="fas fa-bell bell" ></i>
+            <p class="notice" id="noticeNum" >.12.</p>
+        </div>
       </div>
     </header>
+    <div class="mainContainer" >
+      <p>My job > Create Migration</p>
+    </div>
     <script src="main.js"></script>
   </body>
 </html>
