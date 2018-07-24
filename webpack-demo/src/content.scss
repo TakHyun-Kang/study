@@ -1,0 +1,173 @@
+.mainContainer {
+    margin: 0 30px;
+    .mainSmall {
+        margin: 20px 0;
+        color: #959996;
+        display: block;
+    }
+    .mainTitle {
+        h1 {
+            font-size: 30px;
+            font-weight: 300;
+        }
+        p {
+            margin-top: 20px;
+            width: 1300px;
+            color: #959996;
+        }
+        .checkLineBox {
+            margin-top: 30px;
+            .mainTitleCheck1 {
+                @extend %mainTitleCheck;
+            }
+            .mainTitleCheck2 {
+                @extend %mainTitleCheck;
+                left: 299px;
+            }
+            .mainTitleCheck3 {
+                @extend %mainTitleCheck;
+                left: 570px;
+            }
+            .mainTitleCheck4 {
+                @extend %mainTitleCheck;
+                left: 842px;
+            }
+            .mainTitleCheck5 {
+                @extend %mainTitleCheck;
+                left: 1113px;
+            }
+            .mainTitleCheck6 {
+                font-size: 30px;
+                display: inline-block;
+                position: absolute;
+                top: 240px;
+                left: 1381px;
+                background-color: #0095FF;
+                color: #fff;
+                border: 1px solid #0095FF;
+                border-radius: 50%;
+                width: 28px;
+                height: 28px;
+                text-align: center;
+                font-size: 18px;
+                line-height: 1.3;
+                
+            }
+            .checkLine1 {
+                @extend %checkLine;
+                margin-left: 29px;
+            }
+            .checkLine2 {
+                @extend %checkLine;
+                margin-left: 20px;
+            }
+            .checkLine3 {
+                @extend %checkLine;
+                margin-left: 23px;
+            }
+            .checkLine4 {
+                @extend %checkLine;
+                margin-left: 23px;
+            }
+            .checkLine5 {
+                @extend %checkLine;
+                margin-left: 22px;
+            }
+        }
+    }
+    .tableBox {
+        margin-top: 30px;
+        p {
+            font-weight: 300;
+            font-size: 35px;
+            display: inline-block;
+        }
+        .pencil {
+            font-size: 20px;
+            margin-left: 10px;
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        table {
+            box-sizing: border-box;
+            border-collapse: collapse;
+            box-shadow: 1px 3px 10px 1px #EDEBEA;
+            text-align: left;
+            width: 100%;
+            margin-top: 20px;
+            .licenseNum {
+                width: 800px;
+            }
+            .hostName {
+                width: 300px;
+            }
+            .type {
+                width: 600px;
+            }
+            .volumeType {
+                width: 400px;
+            }
+            .path {
+                width: 1000px;
+            }
+            .subtitle {
+                background-color: #E5E5E7;
+            }
+            .BGColor {
+                background-color: #fff;
+            }
+            .tableTr {
+                border: none;
+                .tableTop {
+                    padding-top: 20px;
+                }
+                .tableLeft {
+                    padding-left: 20px;
+                }
+                .tableBottom {
+                    padding-bottom: 20px;
+                }
+                .licenseColor {
+                    color: #0095FF;
+                }
+                .tPaddingTop {
+                    padding-top: 0;
+                }
+                th {
+                    .serverImg {
+                        width: 30px;
+                        vertical-align: middle;
+                        margin-bottom: 2px;
+                    }
+                    .alive {
+                        border: 1px solid #00E5A9;
+                        border-radius: 50%;
+                        width: 15px;
+                        height: 15px;
+                        background-color: #00E5A9;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .lastTable {
+        margin-bottom: 30px;
+    }
+}
+
+%mainTitleCheck {
+    color: #0095FF;
+    font-size: 30px;
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+}
+
+%checkLine {
+    border: 1px solid #0095FF;
+    width: 245px;
+    display: inline-block;
+    margin-bottom: 10px;
+}

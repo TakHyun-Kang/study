@@ -1,0 +1,170 @@
+header {
+    height: 60px;
+    border-bottom: 3px solid #EDEBEA;
+    box-shadow: 1px 1px 10px 1px #EDEBEA;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    .headerMenu {
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        left: 30px;
+        height: 35px;
+        &:hover {
+            cursor: pointer;
+        }
+        .menuArrowBox {
+            display: inline-block;
+            position: relative;
+            bottom: 10px;
+            .menuArrow {
+                font-size: 20px;
+                color: #367BD6;
+            }
+        }
+        .headerMenuImg {
+            position: relative;
+            width: 30px;
+        }
+    }
+    .logo {
+        display: inline-block;
+        position: relative;
+        left: 40px;
+        top: 10px;
+        a {
+            .logoImg {
+                width: 75px;
+            }
+        }
+    }
+    .headerState {
+        display: inline-block;
+        position: relative;
+        left: 70px;
+        .exclamationBox {
+            display: inline-block;
+            position: relative;
+            .exclamation {
+                color: #FF8800;
+                font-size: 23px;
+            }
+            .error {
+                display: inline-block;
+                font-weight: 400;
+                color: #666565;
+            }
+            .error2 {
+                display: inline-block;
+            }
+        }
+        .progressBox {
+            display: inline-block;
+            position: relative;
+            left: 70px;
+            .spinner {
+                color: #FFCA00;
+                font-size: 23px;
+            }
+            .hProgress {
+                display: inline-block;
+                font-weight: 400;
+                color: #666565;
+            }
+            .progress2 {
+                display: inline-block;
+            }
+        }
+        .completedBox {
+            display: inline-block;
+            position: relative;
+            left: 140px;
+            .check {
+                color: #0095FF;
+                font-size: 23px;
+            }
+            .completed {
+                display: inline-block;
+                font-weight: 400;
+                color: #666565;
+            }
+            .completed2 {
+                display: inline-block;
+            }
+        }
+        .ReservedBox {
+            display: inline-block;
+            position: relative;
+            left: 210px;
+            .clock {
+                color: #00E5A9;
+                font-size: 23px;
+            }
+            .reserved {
+                display: inline-block;
+                font-weight: 400;
+                color: #666565;
+            }
+            .reserved2 {
+                display: inline-block;
+            }
+        }
+    }
+    .utilBox {
+        display: inline-block;
+        float: right;
+        margin-top: 15px;
+        margin-right: 95px;
+        .userBox {
+            display: inline-block;
+            position: relative;
+            .userImg {
+                color: #C2C7C3;
+                font-size: 30px;
+            }
+            .userName {
+                display: inline-block;
+                position: relative;
+                bottom: 5px;
+                left: 5px;
+            }
+            .arrowDown {
+                position: relative;
+                color: #000;
+                font-size: 20px;
+                left: 10px;
+                bottom: 7px;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .noticeBox {
+            display: inline-block;
+            position: relative;
+            left: 50px;
+            .bell {
+                color: #000;
+                font-size: 25px;
+            }
+            .notice {
+                position: absolute;
+                border: 1px solid #0095FF;
+                border-radius: 10px;
+                background-color: #0095FF;
+                color: white;
+                top: -7px;
+                right: -15px;
+                font-size: 14px;
+                width: 26px;
+                text-align: center;
+                height: 22px;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}

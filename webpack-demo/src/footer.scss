@@ -1,0 +1,142 @@
+footer {
+    background-color: #fff;
+    .footerUpper {
+        height: 100px;
+        border-bottom: 1px solid #E5E5E7;
+        .upperBox {
+            margin: 30px;
+            display: inline-block;
+            width: 1380px;
+            small {
+                color: #959996;
+                display: block;
+            }
+            .smallRight {
+                position: absolute;
+                top: 2150px;
+                right: 30px;
+            }
+            .timeBox {
+                display: inline-block;
+                .start {
+                    margin-top: 15px;
+                    position: relative;
+                    opacity: 1;
+                    pointer-events: auto;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                .set {
+                    margin-left: 20px;
+                    position: relative;
+                    opacity: 1;
+                    pointer-events: auto;
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+                p {
+                    display: inline-block;
+                    margin-left: 13px;
+                    color: #606061;
+                    font-size: 16px;
+                }
+                .startText {
+                    margin-top: 10px;
+                }
+            }
+            .dateBox {
+                display: inline-block;
+                margin-left: 10px;
+                .datepicker {
+                    transition: 1s;
+                    height: 20px;
+                    width: 150px;
+                    z-index: 1;
+                    &:hover {
+                        border-bottom: 2px solid #0095FF;
+                        cursor: pointer;
+                    }
+                }
+                .timepicker {
+                    transition: 1s;
+                    height: 20px;
+                    width: 150px;
+                    margin-left: 10px;
+                    &:hover {
+                        border-bottom: 2px solid #0095FF;
+                        cursor: pointer;
+                    }
+                }
+                .dateIcon {
+                    width: 35px;
+                    position: absolute;
+                    left: 415px;
+                    top: 2176px;
+                }
+                .dateArrow {
+                    position: absolute;
+                    left: 455px;
+                    top: 2172px;
+                    font-size: 17px;
+                    color: #0095FF;
+                }
+                .timeIcon {
+                    width: 35px;
+                    position: absolute;
+                    left: 595px;
+                    top: 2176px;
+                }
+            }
+            p {
+                display: inline-block;
+                font-size: 40px;
+                color: #0095FF;
+                float: right;
+            }
+        }
+    }
+    .footerLower {
+        height: 70px;
+        .fLowerLeft {
+            display: inline-block;
+            margin: 5px 30px;
+            &:hover {
+                cursor: pointer;
+            }
+            .fLeftArrow {
+                font-size: 60px;
+                color: #0095FF;
+            }
+            .leftSpan {
+                display: inline-block;
+                margin-left: 10px;
+                font-size: 40px;
+                position: relative;
+                bottom: 7px;
+                font-weight: 800;
+            }
+        }
+        .fLowerRight {
+            margin-left: 925px;
+            display: inline-block;
+            &:hover {
+                cursor: pointer;
+            }
+            .fRightArrow {
+                font-size: 60px;
+                color: #0095FF;
+                margin-left: 10px;
+            }
+            .rightSpan {
+                display: inline-block;
+                margin-bottom: 5px;
+                font-size: 40px;
+                position: relative;
+                bottom: 7px;
+                font-weight: 800;
+            }
+        }
+    }
+}
