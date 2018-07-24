@@ -1,6 +1,5 @@
 import _ from 'lodash';
 import './index.scss';
-import Icon from './ico.png';
 
 function component() {
     var error = document.getElementById('errorNum');
@@ -38,14 +37,5 @@ function component() {
       });
     });
 
-    // element.classList.add('hello');
-
-    // var myIcon = new Image();
-    // myIcon.src = Icon;
-
-    // element.appendChild(myIcon);
-  
-    // return element;
   }
   component();
-  // document.body.appendChild(component());
