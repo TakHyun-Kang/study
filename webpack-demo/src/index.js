@@ -14,15 +14,34 @@ function component() {
     var reserved = document.getElementById('reservedNum');
     reserved.innerHTML = _.join(['0'], ' ');
 
-
     var menu = function() {
+      var main = document.getElementById('main');
       var sMenuBox = document.getElementById('sMenuBox');
-      if (sMenuBox.style.width === "0px") {
-        document.body.style.left = '200px';
-        sMenuBox.style.width = '200px';
+      var cL1 = document.getElementById('cL1');
+      var cL2 = document.getElementById('cL2');
+      var cL3 = document.getElementById('cL3');
+      var cL4 = document.getElementById('cL4');
+      var cL5 = document.getElementById('cL5');
+      if (sMenuBox.style.width === "0%") {
+        main.style.left = '20%';
+        main.style.width = '80%';
+        sMenuBox.style.width = '20%';
+        cL1.style.width = '45.6%';
+        cL2.style.width = '45.6%';
+        cL3.style.width = '45.6%';
+        cL3.style.display = 'none';
+        cL4.style.width = '45.6%';
+        cL5.style.width = '45.6%';
       } else {
-        document.body.style.left = '0px';
-        sMenuBox.style.width = '0px';
+        main.style.left = '0%';
+        main.style.width = '100%';
+        sMenuBox.style.width = '0%';
+        cL1.style.width = '17.5%';
+        cL2.style.width = '17.5%';
+        cL3.style.width = '17.5%';
+        cL3.style.display = 'inline-block';
+        cL4.style.width = '17.5%';
+        cL5.style.width = '17.5%';
       }
     }
     var sideMenu = document.getElementById('sideMenu');
@@ -36,6 +55,7 @@ function component() {
     var notice = document.getElementById('noticeNum');
     notice.innerHTML = _.join(['12'], ' ');
     
+
     var info = function() {
       var userInfo2 = document.getElementById('userInfo2');
       if (userInfo2.style.display === "none") {
@@ -48,22 +68,46 @@ function component() {
     userInfo.addEventListener('click', info);
 
 
+    function disable() {
+      document.getElementById("dateSet").disabled = true;
+    };
+    var startTime = document.getElementById('startTime');
+    startTime.addEventListener('click', disable);
 
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.datepicker');
-      var instances = M.Datepicker.init(elems, {
-        format: 'yyyy. mm. dd',
-        defaultDate: new Date(),
-        setDefaultDate: true
-      });
-    });
+    function disable2() {
+      document.getElementById("appt-time").disabled = true;
+    };
+    var startTime = document.getElementById('startTime');
+    startTime.addEventListener('click', disable2);
+    
+    function unDisable() {
+      document.getElementById("dateSet").disabled = false;
+    };
+    var setTime = document.getElementById('setTime');
+    setTime.addEventListener('click', unDisable);
 
-    document.addEventListener('DOMContentLoaded', function() {
-      var elems = document.querySelectorAll('.timepicker');
-      var instances = M.Timepicker.init(elems, {
-        defaultTime: 'now',
-      });
-    });
+    function unDisable2() {
+      document.getElementById("appt-time").disabled = false;
+    };
+    var setTime = document.getElementById('setTime');
+    setTime.addEventListener('click', unDisable2);
+
+
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   var elems = document.querySelectorAll('.datepicker');
+    //   var instances = M.Datepicker.init(elems, {
+    //     format: 'yyyy. mm. dd',
+    //     defaultDate: new Date(),
+    //     setDefaultDate: true
+    //   });
+    // });
+
+    // document.addEventListener('DOMContentLoaded', function() {
+    //   var elems = document.querySelectorAll('.timepicker');
+    //   var instances = M.Timepicker.init(elems, {
+    //     defaultTime: 'now',
+    //   });
+    // });
 
   }
   component();

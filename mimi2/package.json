@@ -8,7 +8,8 @@
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
     "react-scrollmagic-parallax": "^1.0.4",
-    "scrollmagic": "^2.0.5"
+    "scrollmagic": "^2.0.5",
+    "styled-components": "^3.3.3"
   },
   "scripts": {
     "start": "react-scripts start",

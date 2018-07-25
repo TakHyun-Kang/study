@@ -181,6 +181,7 @@ header {
     transition: 0.5s;
     padding-top: 70px;
     box-shadow: 5px 1px 10px 1px $borderColor;
+    box-sizing: border-box;
     a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
