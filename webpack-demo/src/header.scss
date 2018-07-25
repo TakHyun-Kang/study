@@ -1,8 +1,8 @@
 header {
     height: 60px;
-    border-bottom: 3px solid #EDEBEA;
-    box-shadow: 1px 1px 10px 1px #EDEBEA;
-    background-color: #fff;
+    border-bottom: 3px solid $borderColor;
+    box-shadow: 1px 1px 10px 1px $borderColor;
+    background-color: $colorWhite;
     position: sticky;
     top: 0;
     z-index: 5;
@@ -21,7 +21,7 @@ header {
             bottom: 10px;
             .menuArrow {
                 font-size: 20px;
-                color: #367BD6;
+                color: $lightCobalt;
             }
         }
         .headerMenuImg {
@@ -48,13 +48,13 @@ header {
             display: inline-block;
             position: relative;
             .exclamation {
-                color: #FF8800;
+                color: $orange;
                 font-size: 23px;
             }
             .error {
                 display: inline-block;
                 font-weight: 400;
-                color: #666565;
+                color: $writingColor;
             }
             .error2 {
                 display: inline-block;
@@ -65,13 +65,13 @@ header {
             position: relative;
             left: 70px;
             .spinner {
-                color: #FFCA00;
+                color: $darkYellow;
                 font-size: 23px;
             }
             .hProgress {
                 display: inline-block;
                 font-weight: 400;
-                color: #666565;
+                color: $writingColor;
             }
             .progress2 {
                 display: inline-block;
@@ -82,13 +82,13 @@ header {
             position: relative;
             left: 140px;
             .check {
-                color: #0095FF;
+                color: $lightCobalt;
                 font-size: 23px;
             }
             .completed {
                 display: inline-block;
                 font-weight: 400;
-                color: #666565;
+                color: $writingColor;
             }
             .completed2 {
                 display: inline-block;
@@ -99,13 +99,13 @@ header {
             position: relative;
             left: 210px;
             .clock {
-                color: #00E5A9;
+                color: $emerald;
                 font-size: 23px;
             }
             .reserved {
                 display: inline-block;
                 font-weight: 400;
-                color: #666565;
+                color: $writingColor;
             }
             .reserved2 {
                 display: inline-block;
@@ -121,7 +121,7 @@ header {
             display: inline-block;
             position: relative;
             .userImg {
-                color: #C2C7C3;
+                color: $userImg;
                 font-size: 30px;
             }
             .userName {
@@ -132,7 +132,7 @@ header {
             }
             .arrowDown {
                 position: relative;
-                color: #000;
+                color: $black;
                 font-size: 20px;
                 left: 10px;
                 bottom: 7px;
@@ -147,15 +147,15 @@ header {
             position: relative;
             left: 50px;
             .bell {
-                color: #000;
+                color: $black;
                 font-size: 25px;
             }
             .notice {
                 position: absolute;
-                border: 1px solid #0095FF;
+                border: 1px solid $lightCobalt;
                 border-radius: 10px;
-                background-color: #0095FF;
-                color: #fff;
+                background-color: $lightCobalt;
+                color: $colorWhite;
                 top: -7px;
                 right: -15px;
                 font-size: 14px;
@@ -170,23 +170,12 @@ header {
     }
 }
 
-.overlay {
-    height: 100%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0);
-    overflow-x: hidden;
-    transition: .5s;
-}
 .MenuBox {
     position: fixed;
     top: 0;
     left: 0;
     height: 100%;
-    background-color: #fff;
+    background-color: $colorWhite;
     z-index: 1;
     overflow-x: hidden;
     transition: 0.5s;
@@ -195,7 +184,7 @@ header {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 25px;
-        color: #666565;
+        color: $writingColor;
         display: block;
         transition: 0.3s;
         &:hover {
@@ -203,7 +192,7 @@ header {
         }
     }
     .menuCloseBtn {
-        color: #666565;
+        color: $writingColor;
         font-size: 50px;
         position: absolute;
         top: -10px;
@@ -216,7 +205,7 @@ header {
 
 #userInfo2 {
     position: absolute;
-    background-color: #fff;
+    background-color: $colorWhite;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -225,7 +214,7 @@ header {
     a {
         display: block;
         text-decoration: none;
-        color: #666565;
+        color: $writingColor;
         font-size: 18px;
         margin: 5px;
         &:hover {

@@ -37,7 +37,7 @@ footer {
                 p {
                     display: inline-block;
                     margin-left: 13px;
-                    color: #606061;
+                    color: $writingColor;
                     font-size: 16px;
                 }
                 .startText {
@@ -54,7 +54,7 @@ footer {
                     width: 150px;
                     z-index: 1;
                     &:hover {
-                        border-bottom: 2px solid #0095FF;
+                        border-bottom: 2px solid $lightCobalt;
                         cursor: pointer;
                     }
                 }
@@ -74,7 +74,7 @@ footer {
                     width: 120px;
                     margin-left: 10px;
                     &:hover {
-                        border-bottom: 2px solid #0095FF;
+                        border-bottom: 2px solid $lightCobalt;
                         cursor: pointer;
                     }
                 }
@@ -114,13 +114,12 @@ footer {
                 float: right;
                 top: -10px;
                 .smallRight {
-                    position: relative;
                     margin-left: 235px;
                 }
                 .timer {
                     display: inline-block;
                     font-size: 40px;
-                    color: #0095FF;
+                    color: $lightCobalt;
                     position: relative;
                 }
             }
@@ -136,7 +135,7 @@ footer {
             }
             .fLeftArrow {
                 font-size: 60px;
-                color: #0095FF;
+                color: $lightCobalt;
             }
             .leftSpan {
                 display: inline-block;
@@ -157,7 +156,7 @@ footer {
             }
             .fRightArrow {
                 font-size: 60px;
-                color: #0095FF;
+                color: $lightCobalt;
                 margin-left: 10px;
             }
             .rightSpan {

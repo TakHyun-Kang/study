@@ -25,9 +25,9 @@
             .mainTitleCheck6 {
                 font-size: 30px;
                 display: inline-block;
-                background-color: #0095FF;
-                color: #fff;
-                border: 1px solid #0095FF;
+                background-color: $lightCobalt;
+                color: $colorWhite;
+                border: 1px solid $lightCobalt;
                 border-radius: 50%;
                 width: 28px;
                 height: 28px;
@@ -60,7 +60,7 @@
         table {
             box-sizing: border-box;
             border-collapse: collapse;
-            box-shadow: 1px 3px 10px 1px #EDEBEA;
+            box-shadow: 1px 3px 10px 1px $borderColor;
             text-align: left;
             width: 100%;
             margin-top: 20px;
@@ -83,7 +83,7 @@
                 background-color: #E5E5E7;
             }
             .BGColor {
-                background-color: #fff;
+                background-color: $colorWhite;
             }
             .tableTr {
                 border: none;
@@ -97,7 +97,7 @@
                     padding-bottom: 20px;
                 }
                 .licenseColor {
-                    color: #0095FF;
+                    color: $lightCobalt;
                 }
                 .tPaddingTop {
                     padding-top: 0;
@@ -109,11 +109,11 @@
                         margin-bottom: 2px;
                     }
                     .alive {
-                        border: 1px solid #00E5A9;
+                        border: 1px solid $emerald;
                         border-radius: 50%;
                         width: 15px;
                         height: 15px;
-                        background-color: #00E5A9;
+                        background-color: $emerald;
                         margin-left: 10px;
                     }
                 }
@@ -126,7 +126,7 @@
 }
 
 %mainTitleCheck {
-    color: #0095FF;
+    color: $lightCobalt;
     font-size: 30px;
     display: inline-block;
     position: relative;
@@ -134,7 +134,7 @@
 }
 
 %checkLine {
-    border: 1px solid #0095FF;
+    border: 1px solid $lightCobalt;
     width: 17.5%;
     display: inline-block;
     margin-bottom: 10px;
