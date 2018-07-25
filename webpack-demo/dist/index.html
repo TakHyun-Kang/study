@@ -7,16 +7,14 @@
     <title>Roro</title>
   </head>
   <body style="left: 0px;" >
-    <!-- <div class="overlay" id="menuOverlay" style="width: 0%;" > -->
-      <div class="MenuBox" id="sMenuBox" style="width: 0px;" >
-        <a href="javascript:void(0)" id="closeBtn" class="menuCloseBtn" >&times;</a>
-        <a href="#">Something menu 1</a>
-        <a href="#">Something menu 2</a>
-        <a href="#">Something menu 3</a>
-        <a href="#">Something menu 4</a>
-      </div>
-    <!-- </div> -->
-    <header>
+    <div class="MenuBox" id="sMenuBox" style="width: 0px;" >
+      <a href="javascript:void(0)" id="closeBtn" class="menuCloseBtn" >&times;</a>
+      <a href="#">Something menu 1</a>
+      <a href="#">Something menu 2</a>
+      <a href="#">Something menu 3</a>
+      <a href="#">Something menu 4</a>
+    </div>
+    <header id="header" >
       <div class="headerMenu" id="sideMenu" >
         <div class="menuArrowBox" >
           <i class="fas fa-caret-left menuArrow" ></i>
@@ -28,7 +26,7 @@
           <img class="logoImg" src="./public/roroLogo.png" >
         </a>
       </div>
-      <div class="headerState" >
+      <div class="headerState" id="hState" >
         <div class="exclamationBox" >
           <i class="fas fa-exclamation-circle exclamation" ></i>
           <span class="error" >Error</span>
@@ -50,7 +48,7 @@
             <span id="reservedNum" class="reserved2" ></span>
         </div>
       </div>
-      <div class="utilBox">
+      <div class="utilBox" id="hUtilBox" >
         <div class="userBox" id="userInfo" >
             <i class="fas fa-user-circle userImg" ></i>
             <p class="userName" id="uName" ></p>
@@ -74,17 +72,17 @@
       <div class="mainTitle" >
         <h1>Step 6 . Confirmation</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum eaque, doloremque commodi vero nihil quas, eius voluptates dolor consectetur sed, recusandae numquam aut repellat laborum et ducimus quos id tempore. Velit modi voluptas incidunt atque aperiam quia repudiandae sint voluptates, amet laborum? Facilis, eum molestiae!</p>
-        <div class="checkLineBox" >
-          <i class="fas fa-check-circle mainTitleCheck1" ></i>
-          <div class="checkLine1" ></div>
-          <i class="fas fa-check-circle mainTitleCheck2" ></i>
-          <div class="checkLine2" ></div>
-          <i class="fas fa-check-circle mainTitleCheck3" ></i>
-          <div class="checkLine3" ></div>
-          <i class="fas fa-check-circle mainTitleCheck4" ></i>
-          <div class="checkLine4" ></div>
-          <i class="fas fa-check-circle mainTitleCheck5" ></i>
-          <div class="checkLine5" ></div>
+        <div class="checkLineBox" id="cLBox" >
+          <i class="fas fa-check-circle mainTitleCheck" ></i>
+          <div class="checkLine" id="cL1" ></div>
+          <i class="fas fa-check-circle mainTitleCheck" ></i>
+          <div class="checkLine" id="cL2" ></div>
+          <i class="fas fa-check-circle mainTitleCheck" ></i>
+          <div class="checkLine" id="cL3" ></div>
+          <i class="fas fa-check-circle mainTitleCheck" ></i>
+          <div class="checkLine" id="cL4" ></div>
+          <i class="fas fa-check-circle mainTitleCheck" ></i>
+          <div class="checkLine" id="cL5" ></div>
           <!-- <i class="fas fa-check-circle mainTitleCheck6" ></i> -->
           <p class="mainTitleCheck6" >6</p>
         </div>
@@ -288,10 +286,9 @@
       </div>
     </div>
     <footer>
-      <div class="footerUpper" >
+      <div class="footerUpper" id="fUpper" >
         <div class="upperBox" >
           <small>Schedule</small>
-          <small class="smallRight" >It is expected to take</small>
           <div class="timeBox" >
             <input type="radio" name="timeStart" class="start" >
             <p class="startText" >Start right away</p>
@@ -309,7 +306,10 @@
             <!-- <i class="fas fa-sort-down dateArrow"></i> -->
             <!-- <img class="timeIcon" src="./public/dateIcon.png" > -->
           </div>
-          <p>8 hours 34 minutes</p>
+          <div class="timerBox" id="tmBox" >
+            <small class="smallRight" >It is expected to take</small>
+            <p class="timer" >8 hours 34 minutes</p>
+          </div>
         </div>
       </div>
       <div class="footerLower" >

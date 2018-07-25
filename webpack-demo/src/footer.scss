@@ -4,20 +4,18 @@ footer {
         height: 100px;
         border-bottom: 1px solid #E5E5E7;
         .upperBox {
-            margin: 30px;
+            margin: 15px 30px;
             display: inline-block;
-            width: 1380px;
+            width: 96%;
             small {
                 color: #959996;
                 display: block;
-            }
-            .smallRight {
-                position: absolute;
-                top: 2150px;
-                right: 30px;
+                position: relative;
+                top: 6px;
             }
             .timeBox {
                 display: inline-block;
+                position: relative;
                 .start {
                     margin-top: 15px;
                     position: relative;
@@ -49,6 +47,7 @@ footer {
             .dateBox {
                 display: inline-block;
                 margin-left: 10px;
+                position: relative;
                 input[type=date] {
                     transition: 1s;
                     height: 20px;
@@ -109,11 +108,21 @@ footer {
                 //     top: 2176px;
                 // }
             }
-            p {
+            .timerBox {
                 display: inline-block;
-                font-size: 40px;
-                color: #0095FF;
+                position: relative;
                 float: right;
+                top: -10px;
+                .smallRight {
+                    position: relative;
+                    margin-left: 235px;
+                }
+                .timer {
+                    display: inline-block;
+                    font-size: 40px;
+                    color: #0095FF;
+                    position: relative;
+                }
             }
         }
     }
@@ -139,8 +148,10 @@ footer {
             }
         }
         .fLowerRight {
-            margin-left: 925px;
             display: inline-block;
+            float: right;
+            display: inline-block;
+            margin: 5px 30px;
             &:hover {
                 cursor: pointer;
             }

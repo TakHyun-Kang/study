@@ -12,38 +12,19 @@
         }
         p {
             margin-top: 20px;
-            width: 1300px;
+            width: 90%;
             color: #959996;
         }
         .checkLineBox {
+            text-align: center;
             margin-top: 30px;
-            .mainTitleCheck1 {
+            width: 100%;
+            .mainTitleCheck {
                 @extend %mainTitleCheck;
-            }
-            .mainTitleCheck2 {
-                @extend %mainTitleCheck;
-                left: 300px;
-            }
-            .mainTitleCheck3 {
-                @extend %mainTitleCheck;
-                left: 569px;
-            }
-            .mainTitleCheck4 {
-                @extend %mainTitleCheck;
-                left: 840px;
-            }
-            .mainTitleCheck5 {
-                @extend %mainTitleCheck;
-                // left: 1113px;
-                left: 1109px;
             }
             .mainTitleCheck6 {
                 font-size: 30px;
                 display: inline-block;
-                position: absolute;
-                top: 240px;
-                // left: 1381px;
-                left: 1379px;
                 background-color: #0095FF;
                 color: #fff;
                 border: 1px solid #0095FF;
@@ -53,27 +34,12 @@
                 text-align: center;
                 font-size: 18px;
                 line-height: 1.3;
-                
+                position: relative;
+                left: -0.4%;
+                top: -6px;
             }
-            .checkLine1 {
+            .checkLine {
                 @extend %checkLine;
-                margin-left: 29px;
-            }
-            .checkLine2 {
-                @extend %checkLine;
-                margin-left: 24px;
-            }
-            .checkLine3 {
-                @extend %checkLine;
-                margin-left: 26px;
-            }
-            .checkLine4 {
-                @extend %checkLine;
-                margin-left: 24px;
-            }
-            .checkLine5 {
-                @extend %checkLine;
-                margin-left: 24px;
             }
         }
     }
@@ -163,22 +129,14 @@
     color: #0095FF;
     font-size: 30px;
     display: inline-block;
-    position: absolute;
-    top: 260px;
+    position: relative;
+    left: -0.4%;
 }
 
 %checkLine {
     border: 1px solid #0095FF;
-    // width: 245px;
     width: 17.5%;
     display: inline-block;
     margin-bottom: 10px;
-}
-
-@media (max-width: 1241px) {
-    body {
-    }
-    .checkLine1 {
-        width: 200px;
-    }
+    margin-left: -10px;
 }
