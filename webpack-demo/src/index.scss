@@ -36,20 +36,20 @@ body {
 }
 @media screen and (max-width: 1385px) {
     #cL1, #cL2, #cL3, #cL4, #cL5 {
-        width: 45.6%;
+        width: 45.6% !important;
     }
     #cL3 {
-        display: none;
+        display: none !important;
     }
 }
 @media screen and (max-width: 1020px) {
     #cL1, #cL2, #cL3, #cL4, #cL5 {
-        width: 44%;
+        width: 44% !important;
     }
 }
 @media screen and (max-width: 760px) {
     #cL1, #cL2, #cL3, #cL4, #cL5 {
-        width: 42%;
+        width: 42% !important;
     }
 }
 @media screen and (max-width: 960px) {
